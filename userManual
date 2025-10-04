@@ -1,0 +1,5 @@
+tool -> options -> Environment -> General -> Color Theme : change visual studio theme
+
+tool -> options -> Environment -> Fonts and Colors / show setting for -> Text Editor : change code font and size
+tool -> options -> Environment -> Fonts and Colors / show setting for -> Output Window : change code font and size
+
