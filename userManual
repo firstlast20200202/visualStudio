@@ -4,4 +4,22 @@ tool -> options -> Environment -> General -> Color Theme : change visual studio 
 
 tool -> options -> Environment -> Fonts and Colors / show setting for -> Text Editor : change code font and size
 tool -> options -> Environment -> Fonts and Colors / show setting for -> Output Window : change code font and size
+Debug -> Start without debugging : start executing the code
+tool -> options -> Text Editor -> All Languages -> Line numbers : enable line numbers in the code
+tool -> options -> Import and Export Settings -> Reset all settings : reset all the settings in case accidently changed them
+
+How to debug:
+1. start without debugging -> no
+2. it'll show in Error List and Output these two tabs at the bottom of vs
+3. in Error List, abc means the errors made while writing, X means the errors made in compiling
+4. errors made while writing should be fixed first, just double click the error, it'll focus to the line
+5. hover on the red underline in the code, it'll show the error
+6. to change the font of the hovered error: tool -> options -> Editor Tooltip
+7. once the errors made in writing have been fixed, they'll auto-disapear in the error list, better to start without debugging again
+8. it shows errors made in compiling, sometimes can get more information in Output tab
+
+create another source file shotcut keys: shift + (fn) + F2
+
+to show code structure: View -> Solution Explorer
+
 
