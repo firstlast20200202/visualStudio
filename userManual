@@ -18,8 +18,28 @@ How to debug:
 7. once the errors made in writing have been fixed, they'll auto-disapear in the error list, better to start without debugging again
 8. it shows errors made in compiling, sometimes can get more information in Output tab
 
-create another source file shotcut keys: shift + (fn) + F2
+shotcut keys of creating another source file: shift + (fn) + F2
 
 to show code structure: View -> Solution Explorer
 
+in Solution Explorer, right click the project name, click Open Folder in Files Explorer, it'll show all the files of the project
+in Solution Explorer, right click one source file, then click remove, it'll remove the file from the file list; if click Open Folder in Files Explorer, 
+it still shows up in the folder; right click SourceFiles -> Add -> Existing Item, double click the file, it'll come back
+in Solution Explorer, right click one source file, then click delete, it'll move the file to recycle bin in your computer; if click Open Folder in 
+Files Explorer, it doesnt show up in the folder anymore
 
+for exe files, there are 4 versions:
+debug x64: if send itself to other people, it probably cant be opened since it's depandent on other files in the project
+release x64: if send itself to other prople, it can be opened
+debug x86: for old systems
+release x86: for old systems
+
+can check type of your vs in Help -> About Microsoft vs: it shows up x64 or x86
+can check type of your computer in Start -> System -> System Type: it shows up x64 or x86
+
+to generate x86 debug version and release version: Build -> Build Solution -> Build [projectName], it'll generate two folders 'Debug' and 'Release' 
+which are parallel to 'x64' in the project folder
+
+to send code to people, gotta close vs then compress the project folder
+
+align code: ctrl + A, then keep ctrl pressed: K and F
